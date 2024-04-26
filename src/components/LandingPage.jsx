@@ -7,10 +7,15 @@ function LandingPage() {
         <div className='textstructure mt-52 px-20'>
           {["We Create", "Eye Opening", "Presentations"].map((item,index)=>{
             return(
-              <div className='Masker' key={index}>
-                <h1 className="uppercase text-[7vw] leading-[5.5vw] font-['founders_Grotesk_X'] font-bold">
-                  {item}
-                </h1>
+              <div className='Masker' key={index}> 
+                <div className="w-fit flex items-end overflow-hidden">
+                  {index === 1 && (
+                    <div className="mr-[1.1vw] w-[8vw] rounded-md h-[4.6vw] -top-[1vw] relative bg-[#004D43]"></div>
+                  )}
+                  <h1 className="pt-[1vw] -mb-[1vw] uppercase text-[7vw] leading-[6vw] font-['founders_Grotesk_X'] font-bold">
+                    {item}
+                  </h1>
+                </div>
               </div>
             )
           })}
