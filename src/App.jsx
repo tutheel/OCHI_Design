@@ -6,6 +6,8 @@ import About from './components/About';
 import Eye from './components/Eye';
 import Featured from './components/Featured';
 import Cards from './components/Cards';
+import Footer from './components/Footer';
+
 function App() {
   return (
     <div className='w-full min-h-screen text-white bg-zinc-900'>
@@ -16,6 +18,7 @@ function App() {
         <Eye/>
         <Featured />
         <Cards />
+        <Footer/>
     </div>
   )
 }
