@@ -10,7 +10,7 @@ function About() {
         <div className="flex mt-10 mr-5">
           <div className="w-1/2 ">
                   <h1 className="px-20 py-5 text-[3vw] font-semibold">Our approach:</h1>
-                  <button className="uppercase items-center px-16 ml-20 py-7 text-[.8vw] bg-zinc-900 rounded-full text-white flex gap-16">
+                  <button className="uppercase items-center px-10 ml-20 py-5 text-[1vw] bg-zinc-900 rounded-full text-white flex gap-16">
                       <h1>Read More</h1>
                       <div className="w-5 h-5 bg-zinc-100 rounded-full"></div>
                   </button>
